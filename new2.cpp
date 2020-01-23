@@ -41,7 +41,7 @@ int main(){
 	else if (flag == 0)
 		cout << "There was only 1 occurence of this element." << endl;
 	else
-	    cout << "Unknown error occured. Please check your code and try again later." << endl;
+	    cout << "Unknown error occured. Please check your code and try again." << endl;
 	cout << "The array has been updated." << endl << "The new array is : " << endl;
 	for (i=0; i<size; i++){
 		cout << a[i] << " ";
